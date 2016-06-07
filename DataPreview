@@ -1,0 +1,32 @@
+#Data Preview
+
+select * from person
+
+person_id, firstName, lastName
+------------------------------
+'3', 'Anil', 'Kumar'
+'4', 'Gaurav', 'Chadha'
+'5', 'Avinash', 'Singh'
+'6', 'Rajeev', 'Ranjan'
+
+select * from address
+
+address_id, buildingName, postCode, town
+-----------------------------------------
+'1', 'A K House', '234165', 'Mysore'
+'2', 'G K House', '110023', 'Delhi'
+'3', 'G K House', '567891', 'Bangalore'
+'4', 'Avi Nilyam', '560034', 'Bangalore'
+'5', 'RJ House', '620032', 'Dhanbad'
+'6', 'RJ Paradise', '450023', 'Mysuru'
+
+select * from person_address
+
+person_id, address_id
+'3', '1'
+'4', '2'
+'4', '3'
+'5', '4'
+'6', '5'
+'6', '6'
+
