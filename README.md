@@ -9,6 +9,7 @@ Person --------#personid------------>Person_Address <---------#addressid--------
 
 Define RDBMS (MySql) Tables:
 ----------------------------
+#Person
 CREATE TABLE `person` (
   `person_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `firstName` varchar(255) DEFAULT NULL,
@@ -16,6 +17,7 @@ CREATE TABLE `person` (
   PRIMARY KEY (`person_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
+#Address
 CREATE TABLE `address` (
   `address_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `buildingName` varchar(255) DEFAULT NULL,
