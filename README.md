@@ -26,6 +26,7 @@ CREATE TABLE `address` (
   PRIMARY KEY (`address_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
+#Person_Address
 CREATE TABLE `person_address` (
   `person_id` bigint(20) NOT NULL,
   `address_id` bigint(20) NOT NULL,
